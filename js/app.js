@@ -39,15 +39,17 @@ function thirdQuestion(){
   }
 }
 
+function fourthQuestion(){
+  let answerFour =prompt('Did Marcus get married in Seattle?').toLowerCase();
+  //consol.log()
 
-let answerFour =prompt('Did Marcus get married in Seattle?').toLowerCase();
-//consol.log()
-
-if(answerFour === 'yes' || answerFour === 'y'){
-  alert('I did not, I got married in NYC');
-} else if(answerFour === 'no' || answerFour === 'n'){
-  alert(`You're correct ${questionOne}! NYC, Right before COVID hit.`)
+  if(answerFour === 'yes' || answerFour === 'y'){
+    alert('I did not, I got married in NYC');
+  } else if(answerFour === 'no' || answerFour === 'n'){
+    alert(`You're correct ${questionOne}! NYC, Right before COVID hit.`)
+  }
 }
+
 
 let answerFive =prompt('Did Marcus enjoy writing all this code?').toLowerCase();
 //consol.log()
