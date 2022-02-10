@@ -28,14 +28,17 @@ function secondQuestion(){
   }
 }
 
-let answerThree =prompt('Does Marcus have a dog?').toLowerCase();
-//consol.log()
+function thirdQuestion(){
+  let answerThree =prompt('Does Marcus have a dog?').toLowerCase();
+  //consol.log()
 
-if(answerThree === 'yes' || answerThree === 'y'){
-  alert(`I do ${questionOne}, and his name is Ollie. He's the best boy!`);
-} else  if(answerThree === 'no' || answerThree === 'n'){
-  alert('You have answered poorly. I do Have a Dog.')
+  if(answerThree === 'yes' || answerThree === 'y'){
+    alert(`I do ${questionOne}, and his name is Ollie. He's the best boy!`);
+  } else  if(answerThree === 'no' || answerThree === 'n'){
+    alert('You have answered poorly. I do Have a Dog.')
+  }
 }
+
 
 let answerFour =prompt('Did Marcus get married in Seattle?').toLowerCase();
 //consol.log()
