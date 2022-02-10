@@ -2,9 +2,9 @@
 
 console.log ('SUP');
 
-// questionOne =prompt('Hi there! What is your name?');
+questionOne =prompt('Hi there! What is your name?');
 
-//alert(`Howdy ${questionOne}, we are going to play a game!`);
+alert(`Howdy ${questionOne}, we are going to play a game!`);
 
 // let answerOne =prompt('Here is a underhanded pitch.. Can Marcus speak Spanish?').toLocaleLowerCase();
 // //consol.log()
@@ -55,37 +55,72 @@ console.log ('SUP');
 //Start FOR LOOP
 // Question 6
 //user has 4 attempts.
-for(let i = 0; i< 4; i++){
-  let correctAnswer = 10;
-  let userresponse =prompt("What number an I thinking of between 1-10?");
-  if (userresponse == 10){
-    alert('yay!');
-    break;
-    // Alert if too low
-  } else if(userresponse< 10){
-    alert('You gotta go higher!')
-    // Alert if too high.
-  } else if(userresponse> 10){
-    alert ('The number you selected is TOO DAMN HIGH!')
-  }
-} // after all attemts have been exhausted, tell user the correct answer. 
+// for(let i = 0; i< 4; i++){
+//   let correctAnswer = 10;
+//   let userresponse =prompt("What number an I thinking of between 1-10?");
+//   if (userresponse == 10){
+//     alert('yay!');
+//     break;
+//     // Alert if too low
+//   } else if(userresponse< 10){
+//     alert('You gotta go higher!')
+//     // Alert if too high.
+//   } else if(userresponse> 10){
+//     alert ('The number you selected is TOO DAMN HIGH!')
+//   }
+// } // after all attemts have been exhausted, tell user the correct answer. 
 
-// Start ARRAY
+// // Start ARRAY
 
-let correctNPs = ['zion', 'yellowstone', 'grand Teton', 'yosemite', 'great sand dunes', 'glacier', 'arches', 'bryce canyon', 'grand canyon', 'A lot more, I just dont want to keep typing.'];
-for(let i = 0; i < 6; i++){
-  let NPGuess =prompt('Can you guess just one of the many National Parks I have been to? You have 6 trys.').toLowerCase();
-  for(let j = 0; j < correctNPs.length; j++){
-    if(NPGuess === correctNPs[j]){
-      alert('You are RIGHT! Although the list is quite long.');
-      i = 6;
-      break;
-    }
-  }
-}
-alert(`Here were my possible answers - ${correctNPs}! There is a lot, trust me. `)
+// let correctNPs = ['zion', 'yellowstone', 'grand Teton', 'yosemite', 'great sand dunes', 'glacier', 'arches', 'bryce canyon', 'grand canyon', 'A lot more, I just dont want to keep typing.'];
+// for(let i = 0; i < 6; i++){
+//   let NPGuess =prompt('Can you guess just one of the many National Parks I have been to? You have 6 trys.').toLowerCase();
+//   for(let j = 0; j < correctNPs.length; j++){
+//     if(NPGuess === correctNPs[j]){
+//       alert('You are RIGHT! Although the list is quite long.');
+//       i = 6;
+//       break;
+//     }
+//   }
+// }
+// alert(`Here were my possible answers - ${correctNPs}! There is a lot, trust me. `)
 
-// alert(`enjoy my site ${questionOne}.`)
+alert(`enjoy my site ${questionOne}.`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // document.getElementById('showImage').onclick = function () {
