@@ -62,23 +62,26 @@ function fifthQuestion(){
 }
 
 
-Start FOR LOOP
-Question 6
-user has 4 attempts.
-for(let i = 0; i< 4; i++){
-  let correctAnswer = 10;
-  let userresponse =prompt("What number an I thinking of between 1-10?");
-  if (userresponse == 10){
-    alert('yay!');
-    break;
-    // Alert if too low
-  } else if(userresponse< 10){
-    alert('You gotta go higher!')
-    // Alert if too high.
-  } else if(userresponse> 10){
-    alert ('The number you selected is TOO DAMN HIGH!')
-  }
-} // after all attemts have been exhausted, tell user the correct answer. 
+// Start FOR LOOP
+// Question 6
+// user has 4 attempts.
+
+function sixthQuestion(){
+  for(let i = 0; i< 4; i++){
+    let correctAnswer = 10;
+    let userresponse =prompt("What number an I thinking of between 1-10?");
+    if (userresponse == 10){
+      alert('yay!');
+      break;
+      // Alert if too low
+    } else if(userresponse< 10){
+      alert('You gotta go higher!')
+      // Alert if too high.
+    } else if(userresponse> 10){
+      alert ('The number you selected is TOO DAMN HIGH!')
+    }
+  } // after all attemts have been exhausted, tell user the correct answer. 
+}
 
 // Start ARRAY
 
