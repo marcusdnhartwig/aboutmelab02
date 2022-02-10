@@ -84,15 +84,16 @@ function sixthQuestion(){
 }
 
 // Start ARRAY
-
-let correctNPs = ['zion', 'yellowstone', 'grand Teton', 'yosemite', 'great sand dunes', 'glacier', 'arches', 'bryce canyon', 'grand canyon', 'A lot more, I just dont want to keep typing.'];
-for(let i = 0; i < 6; i++){
-  let NPGuess =prompt('Can you guess just one of the many National Parks I have been to? You have 6 trys.').toLowerCase();
-  for(let j = 0; j < correctNPs.length; j++){
-    if(NPGuess === correctNPs[j]){
-      alert('You are RIGHT! Although the list is quite long.');
-      i = 6;
-      break;
+function seventhQuestion(){
+  let correctNPs = ['zion', 'yellowstone', 'grand Teton', 'yosemite', 'great sand dunes', 'glacier', 'arches', 'bryce canyon', 'grand canyon', 'A lot more, I just dont want to keep typing.'];
+  for(let i = 0; i < 6; i++){
+    let NPGuess =prompt('Can you guess just one of the many National Parks I have been to? You have 6 trys.').toLowerCase();
+    for(let j = 0; j < correctNPs.length; j++){
+      if(NPGuess === correctNPs[j]){
+        alert('You are RIGHT! Although the list is quite long.');
+        i = 6;
+        break;
+      }
     }
   }
 }
