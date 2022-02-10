@@ -50,15 +50,17 @@ function fourthQuestion(){
   }
 }
 
+function fifthQuestion(){
+  let answerFive =prompt('Did Marcus enjoy writing all this code?').toLowerCase();
+  //consol.log()
 
-let answerFive =prompt('Did Marcus enjoy writing all this code?').toLowerCase();
-//consol.log()
-
-if(answerFive === 'yes' || answerFive === 'y'){
-  alert('You are not wrong.');
-} else if(answerFive === 'no' || answerFive === 'n'){
-  alert(`${questionOne}, you are not wrong.`);
+  if(answerFive === 'yes' || answerFive === 'y'){
+    alert('You are not wrong.');
+  } else if(answerFive === 'no' || answerFive === 'n'){
+    alert(`${questionOne}, you are not wrong.`);
+  }
 }
+
 
 Start FOR LOOP
 Question 6
