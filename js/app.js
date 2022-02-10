@@ -16,14 +16,16 @@ function firstQuestion(){
   }
 }
 
-let answerTwo =prompt('Does Marcus have a place with a view?') .toLowerCase();
-//consol.log()
+function secondQuestion(){
+  let answerTwo =prompt('Does Marcus have a place with a view?') .toLowerCase();
+  //consol.log()
 
- 
-if (answerTwo === 'yes' || answerTwo === 'y'){
-  alert('you are correct!');
-} else if(answerTwo === 'no' || 'n'){
-  alert("nono... I do. And I love waking up to it.");
+  
+  if (answerTwo === 'yes' || answerTwo === 'y'){
+    alert('you are correct!');
+  } else if(answerTwo === 'no' || 'n'){
+    alert("nono... I do. And I love waking up to it.");
+  }
 }
 
 let answerThree =prompt('Does Marcus have a dog?').toLowerCase();
