@@ -99,9 +99,15 @@ function seventhQuestion(){
 }
 alert(`Here were my possible answers - ${correctNPs}! There is a lot, trust me. `)
 
-alert(`enjoy my site ${questionOne}.`)
+//alert(`enjoy my site ${questionOne}.`)
 
-
+firstQuestion();
+secondQuestion();
+thirdQuestion();
+fourthQuestion();
+fifthQuestion();
+sixthQuestion();
+seventhQuestion();
 
 
 
