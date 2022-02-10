@@ -5,14 +5,15 @@ console.log ('SUP');
 // questionOne =prompt('Hi there! What is your name?');
 
 // alert(`Howdy ${questionOne}, we are going to play a game!`);
+function firstQuestion(){
+  let answerOne =prompt('Here is a underhanded pitch.. Can Marcus speak Spanish?').toLocaleLowerCase();
+  //consol.log()
 
-let answerOne =prompt('Here is a underhanded pitch.. Can Marcus speak Spanish?').toLocaleLowerCase();
-//consol.log()
-
-if(answerOne === 'yes' || answerOne === 'y'){
-  alert('That was an easy one.');
-} else if(answerOne === 'no' || 'n') {
-  alert(`How did you get that wrong ${questionOne}? I gave you a hint at the begining!`);
+  if(answerOne === 'yes' || answerOne === 'y'){
+    alert('That was an easy one.');
+  } else if(answerOne === 'no' || 'n') {
+    alert(`How did you get that wrong ${questionOne}? I gave you a hint at the begining!`);
+  }
 }
 
 let answerTwo =prompt('Does Marcus have a place with a view?') .toLowerCase();
