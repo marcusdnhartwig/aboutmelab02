@@ -5,14 +5,18 @@ console.log ('SUP');
 // questionOne =prompt('Hi there! What is your name?');
 
 // alert(`Howdy ${questionOne}, we are going to play a game!`);
+let correctA = 0;
+
+
 function firstQuestion(){
   let answerOne =prompt('Here is a underhanded pitch.. Can Marcus speak Spanish?').toLocaleLowerCase();
   //consol.log()
 
   if(answerOne === 'yes' || answerOne === 'y'){
     alert('That was an easy one.');
+    correctA++;
   } else if(answerOne === 'no' || 'n') {
-    alert(`How did you get that wrong ${questionOne}? I gave you a hint at the begining!`);
+    alert(`How did you get that wrong ? I gave you a hint at the begining!`);
   }
 }
 
@@ -23,6 +27,7 @@ function secondQuestion(){
   
   if (answerTwo === 'yes' || answerTwo === 'y'){
     alert('you are correct!');
+    correctA++
   } else if(answerTwo === 'no' || 'n'){
     alert("nono... I do. And I love waking up to it.");
   }
@@ -33,7 +38,8 @@ function thirdQuestion(){
   //consol.log()
 
   if(answerThree === 'yes' || answerThree === 'y'){
-    alert(`I do ${questionOne}, and his name is Ollie. He's the best boy!`);
+    alert(`I do, and his name is Ollie. He's the best boy!`);
+    correctA++;
   } else  if(answerThree === 'no' || answerThree === 'n'){
     alert('You have answered poorly. I do Have a Dog.')
   }
@@ -45,8 +51,9 @@ function fourthQuestion(){
 
   if(answerFour === 'yes' || answerFour === 'y'){
     alert('I did not, I got married in NYC');
+    correctA++
   } else if(answerFour === 'no' || answerFour === 'n'){
-    alert(`You're correct ${questionOne}! NYC, Right before COVID hit.`)
+    alert(`You're correct  NYC, Right before COVID hit.`)
   }
 }
 
@@ -56,6 +63,7 @@ function fifthQuestion(){
 
   if(answerFive === 'yes' || answerFive === 'y'){
     alert('You are not wrong.');
+    correctA++
   } else if(answerFive === 'no' || answerFive === 'n'){
     alert(`${questionOne}, you are not wrong.`);
   }
@@ -72,6 +80,7 @@ function sixthQuestion(){
     let userresponse =prompt("What number an I thinking of between 1-10?");
     if (userresponse == 10){
       alert('yay!');
+      correctA++
       break;
       // Alert if too low
     } else if(userresponse< 10){
@@ -91,13 +100,15 @@ function seventhQuestion(){
     for(let j = 0; j < correctNPs.length; j++){
       if(NPGuess === correctNPs[j]){
         alert('You are RIGHT! Although the list is quite long.');
+        correctA++
         i = 6;
         break;
       }
     }
   }
+  alert(`Here were my possible answers - ${correctNPs}! There is a lot, trust me. `)
+  alert(`you got ${correctA} right!`)
 }
-alert(`Here were my possible answers - ${correctNPs}! There is a lot, trust me. `)
 
 //alert(`enjoy my site ${questionOne}.`)
 
