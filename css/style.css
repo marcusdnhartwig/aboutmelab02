@@ -1,4 +1,50 @@
-body {background-color: antiquewhite;}
+* { 
+  background-color: rgb(247, 238, 224);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header styling*/
+
+/* figure styling*/
+
+/* figure {
+  width:max-content;
+  background-color: burlywood;
+  padding: ;
+  margin: auto;
+  margin-top:  /*this will put distance from the caption and the pict*/
+/* }
+
+figcaption {
+  background-color: inherit;
+} */ 
+
+
+
+
+
+
+
+
+
+/* body {background-color: antiquewhite;}
 
 img {}
 
@@ -9,4 +55,4 @@ p2 {color: darkcyan;}
 
 p3 {color: darkred; font: 2em sans-serif;}
 
-p4 {color: dimgray; float: right;}
+p4 {color: dimgray; float: right;} */
