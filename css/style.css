@@ -1,58 +1,55 @@
-* { 
-  background-color: rgb(247, 238, 224);
+body {
+  background-color: blanchedalmond;
+  padding-left: 30px;
 }
 
 
+h1 {
+  font-size: 50px;
+}
+#p1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+}
 
+#bio {
+  font-size: 30px;
+}
+#edu {
+  font-size: 30px;
+  border: 10px solid cadetblue;
+}
+#job {
+  font-size: 30px;
+  border: 10px solid cadetblue;
+}
+#goals {
+  font-size: 30px;
+  border: 10px solid cadetblue;
+}
+#sky {
+  font-size: 30px;
+  border: 10px solid cadetblue;
+} 
+#ten {
+  list-style-type: decimal;
+  padding-bottom: 30px;
+}
+#p2 {
+  padding: 10px;
+  border: 2px dashed skyblue;
+  border-radius: 10px; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header styling*/
-
-/* figure styling*/
-
-/* figure {
-  width:max-content;
-  background-color: burlywood;
-  padding: ;
-  margin: auto;
-  margin-top:  /*this will put distance from the caption and the pict*/
-/* }
-
-figcaption {
-  background-color: inherit;
-} */ 
-
-
-
-
-
-
-
-
-
-/* body {background-color: antiquewhite;}
-
-img {}
-
-p1 {color: blue;}
-li1 {background-color: rgb(235, 147, 147); text-align: center;}
- 
-p2 {color: darkcyan;}
-
-p3 {color: darkred; font: 2em sans-serif;}
-
-p4 {color: dimgray; float: right;} */
+#sea {
+  width: 350px;
+  height: 350px; 
+}
+#Ollie {
+  width: 250px;
+  height: 350px;
+}
+#MMX {
+  width: 250px;
+  height: 350px;
+}
