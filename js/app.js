@@ -2,9 +2,10 @@
 
 console.log ('SUP');
 
-// questionOne =prompt('Hi there! What is your name?');
+let questionOne =prompt('Bienvenidos! What is your name?');
+alert(`Hola ${questionOne}, we are going to play a game!`);
+alert(`Heads up ${questionOne}, the game is about me.`);
 
-// alert(`Howdy ${questionOne}, we are going to play a game!`);
 let correctA = 0;
 
 
@@ -110,14 +111,12 @@ function seventhQuestion(){
   alert(`you got ${correctA} out of right!`)
 }
 
-//alert(`enjoy my site ${questionOne}.`)
+firstQuestion();
+secondQuestion();
+thirdQuestion();
+fourthQuestion();
+fifthQuestion();
+sixthQuestion();
+seventhQuestion();
 
-// firstQuestion();
-// secondQuestion();
-// thirdQuestion();
-// fourthQuestion();
-// fifthQuestion();
-// sixthQuestion();
-// seventhQuestion();
-
-
+alert(`enjoy my site ${questionOne}.`)
